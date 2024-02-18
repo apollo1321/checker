@@ -46,7 +46,7 @@ class ManytaskPlugin(PluginABC):
             "token": args.report_token,
             "task": args.task_name,
             "username": args.username,
-            "score": args.score,
+            # "score": args.score,
             "check_deadline": args.check_deadline,
             "submit_time": send_time_formatted,
         }
